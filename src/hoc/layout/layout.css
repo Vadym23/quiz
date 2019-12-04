@@ -1,0 +1,14 @@
+.Layout {
+    /* Забераем всю высоту 100%(100vh) */
+    height: 100vh;
+    display: flex;
+    /* Выстраиваем в колонки все елементы */
+    flex-direction: column;
+}
+
+.Layout main {
+    display: flex;
+    flex-direction: column;
+    /* flex-grow 1 для того чтобы тег main занимал всю доступную ему высоту */
+    flex-grow: 1;
+}
